@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".McqActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/btnPrev"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center|left"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/prev_btn" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center|right"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/next_btn" />
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp">
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/ripple"
+    android:descendantFocusability="afterDescendants"
+    android:id="@+id/item_info">
+    <ImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/default_book"
+        android:layout_marginStart="5dp"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/book"
+        android:layout_weight=".10" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".90">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Book 1"
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent" />
+        <TextView
+            android:id="@+id/pages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            tools:text="Pages 28"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+    <!--<ImageButton-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/btnDelete"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="26dp"-->
+        <!--android:layout_height="26dp"-->
+        <!--android:src="@drawable/ic_delete_"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:layout_weight=".10" />-->
+</LinearLayout>

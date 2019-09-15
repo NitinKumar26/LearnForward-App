@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.NitinKumar26:ColorPicker:v0.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09aad92b59c7da625c2571d4a5c96a13/ColorPicker-v0.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09aad92b59c7da625c2571d4a5c96a13/ColorPicker-v0.0.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.NitinKumar26/ColorPicker/v0.0.5/ad3b7817fb0f36d232fc84786c97f63b69aa8612/ColorPicker-v0.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.NitinKumar26/ColorPicker/v0.0.5/56b6bc731e292c708c962838d04290c4fa22d75f/ColorPicker-v0.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
