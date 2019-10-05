@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_contacts"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_saved_ques"
+            android:icon="@drawable/ic_wish_list"
+            android:title="My Saved Questions" />
+        <item
+            android:id="@+id/nav_recent_search"
+            android:icon="@drawable/ic_search"
+            android:title="My Recent Searches" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help and Feedback" />
+
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/ic_share"
+            android:title="Invite Friends" />
+
+        <item
+            android:id="@+id/nav_update_app"
+            android:icon="@drawable/ic_update_left_rotation"
+            android:title="Update App" />
+
+        <item android:id="@+id/nav_app_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="App Settings"
+            />
+
+    </group>
+
+</menu>
+

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.learnforward.edgelearner.AboutActivity">
+    tools:context="com.learnforward.edgelearner.com.learnforward.AboutActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBar"
@@ -22,7 +22,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <com.learnforward.edgelearner.MyViews.DTextView
+    <com.learnforward.MyViews.DTextView
         android:id="@+id/txtAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

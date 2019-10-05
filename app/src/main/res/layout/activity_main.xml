@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.learnforward.MainActivity">
 
     <RelativeLayout
         android:layout_alignParentTop="true"
@@ -35,12 +35,15 @@
             android:layout_alignParentEnd="true"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:padding="8dp">
+            android:padding="8dp"
+            android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_gravity="center"
                 android:src="@drawable/ic_addicon"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -48,7 +51,11 @@
                 android:textColor="@color/colorWhite"
                 android:gravity="center"
                 android:textSize="12sp"/>
+
+
+
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/quicklayout"
             android:layout_toStartOf="@id/scan"
@@ -72,6 +79,8 @@
                 android:background="@android:color/transparent"
                 android:src="@drawable/ic_aboutus"/>
         </LinearLayout>
+
+
 
     </RelativeLayout>
 
@@ -108,11 +117,23 @@
             android:src="@drawable/logo"/>
 
         <TextView
-            android:layout_toEndOf="@+id/banner"
-            android:layout_width="match_parent"
+            android:id="@+id/tv_logout"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:gravity="end"
+            android:text="Logout"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/banner"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
             android:text="@string/copy"
             android:textColor="@color/colorAccent"
             android:textSize="10sp" />

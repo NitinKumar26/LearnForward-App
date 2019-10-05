@@ -1,0 +1,26 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_page" />
+
+    <item android:id="@+id/action_questions"
+        android:title="Questions"
+        android:icon="@drawable/ic_questions" />
+
+    <item android:id="@+id/action_scan"
+        android:title="Scan"
+        android:icon="@drawable/ic_qr_code" />
+
+    <item android:id="@+id/action_books"
+        android:title="Books"
+        android:icon="@drawable/ic_math_book" />
+
+    <item android:id="@+id/action_classroom"
+        android:title="Classroom"
+        android:icon="@drawable/ic_class" />
+
+
+
+</menu>

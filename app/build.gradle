@@ -4,11 +4,11 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.learnforward.edgelearner"
+        applicationId "com.learnforward"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 6
-        versionName "2.3"
+        versionCode 1
+        versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -17,6 +17,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -24,12 +29,30 @@ dependencies {
 
     implementation 'com.google.android.gms:play-services-vision:18.0.0'
     implementation 'info.androidhive:barcode-reader:1.1.5'
-    implementation 'com.google.firebase:firebase-core:17.2.0'
-    implementation 'com.google.firebase:firebase-firestore:21.1.1'
     implementation 'com.google.android:flexbox:1.0.0'
     implementation 'com.github.NitinKumar26:MyColorPicker:1.0'
     implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
     implementation 'com.github.takusemba:spotlight:1.6.1'
+
+    //Circular ImageView
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+
+
+
+
+
+    // ButterKnife view binding
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+
+
+
+    implementation 'com.google.firebase:firebase-analytics:17.2.0'
+    implementation 'com.google.firebase:firebase-firestore:21.1.1'
+
+    implementation 'com.google.firebase:firebase-auth:19.0.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+
 
 
     implementation 'com.android.volley:volley:1.1.0'
@@ -42,6 +65,10 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
 
     implementation 'org.apache.commons:commons-io:1.3.2'
+    //Glide Library to load images in app.
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    //Glide v4 uses this new annotation processor -- see https://bumptech.github.io/glide/doc/generatedapi.html
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
 
     testImplementation 'junit:junit:4.12'
 
@@ -54,4 +81,5 @@ dependencies {
     implementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.test:runner:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-auth:19.0.0'
 }

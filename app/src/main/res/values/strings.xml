@@ -4,4 +4,11 @@
     <string name="action_generator">QR Generate</string>
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
     <string name="copy">Copyright © Learn Forward</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+
+    <string name="web_client_id">582221221146-sq817gvjiorm2sjo70cuejiachubb9of.apps.googleusercontent.com</string>
+    <string name="web_client_secret">tVhGQuvkqSqB7ztoqAkfgghT</string>
+
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorPrimary"
-    tools:context=".BookViewActivity">
+    tools:context="com.learnforward.BookViewActivity">
     <RelativeLayout
         android:id="@+id/topBar"
         android:layout_width="match_parent"
@@ -133,7 +133,7 @@
                 android:background="@color/colorAccent"
                 />
         </LinearLayout>
-        <com.learnforward.edgelearner.paint.DrawingView
+        <com.learnforward.paint.DrawingView
             android:id="@+id/draw_overlay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
